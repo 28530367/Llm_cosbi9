@@ -1,0 +1,85 @@
+{
+    "Question": "Does your patient have COVID-19?",
+    "No": "There are no currently approach Abs available in the U.S. for pre-expouse prophylaxis for COVID; vaccination and boosting is recommended.",
+    "Yes": {
+        "Question": "Is your patient hospitalized for COVID-19 or requiring increased O2 for COVID-19?", 
+        "Yes": "See CDC/IDSA/NIH guildance",
+        "No": {
+            "Question":"Does your patient have any symptoms?",
+            "No": "Outpatient treatment options not authorized or recommended. Supportive care only.",
+            "Yes": {
+                "Question": "Have symptoms occurred for more than 8 days?",
+                "Yes": "Outpatient treatment options not authorized or recommended. Supportive care only.",
+                "No": {
+                    "Question": "Does patient have severe renal impairment(eGFR <30 mL/min) OR severe hepatic impairment (Child-Pugh class C)?",
+                    "Yes": {
+                        "Question": "Does patient have access to outpatient infusion or inpatient admission for administration of remdesivir?",
+                        "Yes":{
+                            "Question": "Is patient's weight over 40 kg?",
+                            "Yes": "Dosing: 200 mg IV on day 1, 100 mg IV on day 2 & 3.",
+                            "No": "Dosing for children less than 12 years and < 40 kg and ≥ 3 kg: 5 mg/kg IV on day 1 followed by 2.5 mg/kg IV once daily from day 2 to day 3"
+                        },
+                        "No":{
+                            "Question": "Is pregnancy ruled out?",
+                            "Yes": "Dosing: Molnupiravir 800 mg (four 200 mg capsules) orally twice daily for 5 days",
+                            "No": "Due to embryofetal toxicity in animals, molnupiravir is not recommended for use in pregnancy. If the decision is made to use molnupiravir in pregnancy, the prescriber must document that potential benefits and risks of molnupiravir use in pregnancy from the EUA factsheet were discussed with the patient, and the patient was made aware of Merck's pregnancy surveillance program at 1-877-888-4231 or pregnancyreporting.msd.com."
+                        }
+                    },
+                    "No": {
+                        "Question": "Is the patient taking any other medications?",
+                        "Yes": {
+                            "Question": "Can these medicines be held dose-adjusted, on substituted while Paxlovid course is given?",
+                            "Yes": {
+                                "Question": "Is Emergency Use Authorization met? Including:Weight >= 40 kg, At high risk for progression to severe COVID-19 including hospitalization or death",
+                                "Yes": "Paxlovid Dosing: For GFR >= 60 mL/min, Nirmatrelvir: 300 mg 2x daily for 5 days, Ritonavir: 100 mg 2x daily for 5 days; For GFR 30 ~ 60 mL/min, Nirmatrelvir: 150 mg 2x daily for 5 days, Ritonavir: 100 mg 2x daily for 5 days",
+                                "No":{
+                                    "Question": "Does patient have access to outpatient infusion or inpatient admission for administration of remdesivir?",
+                                    "Yes":{
+                                        "Question": "Is patient's weight over 40 kg?",
+                                        "Yes": "Dosing: 200 mg IV on day 1, 100 mg IV on day 2 & 3.",
+                                        "No": "Dosing for children less than 12 years and < 40 kg and ≥ 3 kg: 5 mg/kg IV on day 1 followed by 2.5 mg/kg IV once daily from day 2 to day 3"
+                                    },
+                                    "No":{
+                                        "Question": "Is  pregnancy ruled out?",
+                                        "Yes": "Dosing: Molnupiravir 800 mg (four 200 mg capsules) orally twice daily for 5 days",
+                                        "No": "Due to embryofetal toxicity in animals, molnupiravir is not recommended for use in pregnancy. If the decision is made to use molnupiravir in pregnancy, the prescriber must document that potential benefits and risks of molnupiravir use in pregnancy from the EUA factsheet were discussed with the patient, and the patient was made aware of Merck's pregnancy surveillance program at 1-877-888-4231 or pregnancyreporting.msd.com."
+                                    }
+                                }
+                            },
+                            "No":{
+                                "Question": "Does patient have access to outpatient infusion or inpatient admission for administration of remdesivir?",
+                                "Yes":{
+                                    "Question": "Is patient's weight over 40 kg?",
+                                    "Yes": "Dosing: 200 mg IV on day 1, 100 mg IV on day 2 & 3.",
+                                    "No": "Dosing for children less than 12 years and < 40 kg and ≥ 3 kg: 5 mg/kg IV on day 1 followed by 2.5 mg/kg IV once daily from day 2 to day 3"
+                                },
+                                "No":{
+                                    "Question": "Is  pregnancy ruled out?",
+                                    "Yes": "Dosing: Molnupiravir 800 mg (four 200 mg capsules) orally twice daily for 5 days",
+                                    "No": "Due to embryofetal toxicity in animals, molnupiravir is not recommended for use in pregnancy. If the decision is made to use molnupiravir in pregnancy, the prescriber must document that potential benefits and risks of molnupiravir use in pregnancy from the EUA factsheet were discussed with the patient, and the patient was made aware of Merck's pregnancy surveillance program at 1-877-888-4231 or pregnancyreporting.msd.com."
+                                }
+                            }
+                        },
+                        "No": {
+                            "Question": "Is Emergency Use Authorization met? Including:Weight >= 40 kg, At high risk for progression to severe COVID-19 including hospitalization or death",
+                            "Yes": "Paxlovid Dosing: For GFR >= 60 mL/min, Nirmatrelvir: 300 mg 2x daily for 5 days, Ritonavir: 100 mg 2x daily for 5 days; For GFR 30 ~ 60 mL/min, Nirmatrelvir: 150 mg 2x daily for 5 days, Ritonavir: 100 mg 2x daily for 5 days",
+                            "No":{
+                                "Question": "Does patient have access to outpatient infusion or inpatient admission for administration of remdesivir?",
+                                "Yes":{
+                                    "Question": "Is patient's weight over 40 kg?",
+                                    "Yes": "Dosing: 200 mg IV on day 1, 100 mg IV on day 2 & 3.",
+                                    "No": "Dosing for children less than 12 years and < 40 kg and ≥ 3 kg: 5 mg/kg IV on day 1 followed by 2.5 mg/kg IV once daily from day 2 to day 3"
+                                },
+                                "No":{
+                                    "Question": "Is  pregnancy ruled out?",
+                                    "Yes": "Dosing: Molnupiravir 800 mg (four 200 mg capsules) orally twice daily for 5 days",
+                                    "No": "Due to embryofetal toxicity in animals, molnupiravir is not recommended for use in pregnancy. If the decision is made to use molnupiravir in pregnancy, the prescriber must document that potential benefits and risks of molnupiravir use in pregnancy from the EUA factsheet were discussed with the patient, and the patient was made aware of Merck's pregnancy surveillance program at 1-877-888-4231 or pregnancyreporting.msd.com."
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
